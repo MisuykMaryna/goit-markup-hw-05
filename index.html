@@ -20,7 +20,7 @@
             <a class="logo-link" href="./index.html" lang="en">Web<span class="header-logo-span">Studio</span></a>
             <ul class="list">
                 <li class="navigation-list-item">
-                    <a class=" link current" href="./index.html">Студія</a></li>
+                    <a class="link current" href="./index.html">Студія</a></li>
                 <li class="navigation-list-item">
                     <a class="link" href="./portfolio.html">Портфоліо</a></li>
                 <li class="navigation-list-item">
@@ -43,7 +43,7 @@
         <section class="section-hero">
             <div class="container-hero"> 
             <h1 class="section-caption">Ефективні рішення для вашого бізнесу</h1>
-            <button class="primary-button" type="button">Замовити послугу</button>
+            <button class="primary-button" type="button" data-modal-open>Замовити послугу</button>
             </div>
         </section>
         <section class="section">
@@ -85,9 +85,18 @@
             <div class="container">
             <h2 class="section-headlines">Чим ми займаємося</h2>
             <ul class="section-list">
-                <li><img src="./images/typing.jpg" alt="Написання коду" width="370"></li>
-                <li><img src="./images/laptop.jpg" alt="Розробка мобільного додатку" width="370"></li>
-                <li><img src="./images/drawing.jpg" alt="Дизайн" width="370"></li>
+                <li><img src="./images/typing.jpg" alt="Написання коду" width="370">
+                    <div class="applications">
+                    <p class="applications-text">Десктопні додатки</p></div>
+                </li>
+                <li><img src="./images/laptop.jpg" alt="Розробка мобільного додатку" width="370">
+                    <div class="applications">
+                <p class="applications-text">Мобільні додатки</p></div>
+               </li>
+                <li><img src="./images/drawing.jpg" alt="Дизайн" width="370">
+                    <div class="applications">
+                <p class="applications-text">Дизайнерські рішення</p></div>
+                </li>
             </ul>
             </div>
         </section>
@@ -297,7 +306,12 @@
 </div>
         </div>
     </footer>
-    <script src="./js/modal.js"></script>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="modal-close-button" type="button" data-modal-close></button>
+        </div>
+    </div>
+    <script src="./js/modal.js">cloze</script>
 </body>
 
 </html>
