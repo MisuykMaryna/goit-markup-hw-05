@@ -115,14 +115,14 @@ color:var(--color-link);
     display: block;
     opacity: 0;
     width: 100%;
-    /*   */
+    bottom: -1px;
     height: 4px;
     border-radius: 2px;
     background-color:var(--accent-color);
     transition: opacity 250ms;
     content:"";
 }
-.header{
+.navigation-list-item{
     position: relative;
 }
 .header-contact {
