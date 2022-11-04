@@ -1,8 +1,4 @@
-/*color #212121*/
-/*color #FFFFFF*/
-/*color #757575*/
-/*color #2196F3*/
-/* color fon #2F303A */
+
 :root{
     --primary-text-color:#757575;
     --title-text-color:#000000;
@@ -52,6 +48,9 @@ body {
 
 }
 /* header */
+.header {
+ border: 1px solid rgba(236, 236, 236, 1);
+}
 .main-nav {
     display: flex;
     align-items: center;
@@ -106,15 +105,14 @@ color:var(--color-link);
 }
 
 .link.current:hover::after {
-    opacity: 1;
+    color: var(--accent-color);
 }
 .link.current:focus::after {
-    opacity: 1;
+    color: var(--accent-color);
 }
 .link.current::after {
     position: absolute;
     display: block;
-    opacity: 0;
     width: 100%;
     bottom: -1px;
     height: 4px;
@@ -309,6 +307,7 @@ margin-bottom: 10px;
     color: rgba(255, 255, 255, 1);
     font-weight: 700;
     line-height: 1.17;
+    text-transform: uppercase;
 }
 /* section-portrait */
 .section-portrait {
@@ -389,7 +388,6 @@ margin-top:16px;
 .section-page {
  padding-top: 94px;
  padding-bottom: 94px;
- border: 1px solid rgba(236, 236, 236, 1);
 }
 /* five-button */
 .button-page {
