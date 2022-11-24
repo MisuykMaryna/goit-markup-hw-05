@@ -524,6 +524,70 @@ border: 1px solid #2196F3;
 display: flex;
 gap: 30px;
 }
+/* room-amenities */
+.room-amenities {
+    background: #FFFDEE;
+    padding-top: 48px;
+    padding-bottom: 40px;
+}
+
+.room-amenities__title {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.15;
+    color: #000000;
+    margin-bottom: 16px;
+    
+}
+
+.room-amenities__subtitle {
+font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.17;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.room-amenities__text {
+font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: #7A7A7A;
+    margin-bottom: 32px;
+}
+.room-amenities__tasks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 64px;
+}
+
+
+.room-amenities__btn {
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.20;
+        width: 358px;
+     color: #FFFFFF;
+    background: #000000;
+    border: 1px solid #F3C653;
+    border-radius: 25px;
+    display: block;
+    padding: 18px 38px;
+    
+    
+}
+
 
 
 /* footer */
